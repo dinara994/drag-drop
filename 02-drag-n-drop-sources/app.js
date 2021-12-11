@@ -12,7 +12,8 @@ for (const placeholder of placeholders) {
 }
 
 function dragstart (event) {
-    event.target.classList.add('hold')
+    event.target.clas .
+    sList.add('hold')
     setTimeout(() => event.target.classList.add('hide'), 0)
 }
 
